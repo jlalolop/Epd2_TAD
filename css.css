@@ -1,0 +1,57 @@
+
+header *{
+    padding: 0.5%;
+    margin: 0% 4%;
+}
+header div{
+    background-image: url(img/marvelstudios.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 92%;
+    height: 250px;
+
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #eb2525;
+    font-style: italic;
+    font-weight: 900;
+}
+
+article p{
+    line-height: 20pt;
+}
+article h1{
+    font-family: sans-serif;
+}
+article h2{
+    font-weight: 100; 
+}
+
+
+article a:hover{
+    font-weight: bold;
+}
+footer{
+    clear: both;
+    font-style: italic;
+}
+footer *{
+    padding: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 0;
+
+}
+footer a{
+    margin-left: 0;
+}
+footer a:hover{
+    color: black;
+    font-style: italic;
+    font-weight: 900;
+}
